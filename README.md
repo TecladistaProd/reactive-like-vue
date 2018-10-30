@@ -1,1 +1,2 @@
-"# reactive-like-vue" 
+# reactive-like-vue
+This repository is only study purpose !!!
