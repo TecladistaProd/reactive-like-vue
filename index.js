@@ -6,7 +6,7 @@ let app = new Frame({
 		name: 'John Doe'
 	},
 	mounted(){
-		this.name = localStorage.getItem('name')
+		this.name = localStorage.getItem('name') || this.name
 	},
 	methods: {
 		mudaVal(){
