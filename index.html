@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Reactive JavaScript</title>
+	<style>
+		[v-cloak] {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<div id="app" v-cloak>
+		<h1>
+			Seja Bem Vindo <span style="font-size: 2.3rem">{{name}}</span>
+		</h1>
+		<p>
+			{{`Aqui Somos mais de ${ 'oi' } `}}
+		</p>
+		<span>Algo</span>
+		<br/>
+		<input :value="name" type="text" @keyup='mudaVal'/>
+	</div>
+	<script src="index.js" type="module" defer></script>
+</body>
+</html>
